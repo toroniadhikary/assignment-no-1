@@ -202,12 +202,14 @@ iframe{
     top: 80px;
     position: relative;
     width: 1140px;
-    height: 1600px;
+    height: 1000px;
     margin-bottom: 200px;
     background: rgba(13, 19, 33, 0.02);
     border-radius: 15px;
-    padding: 80px 120px 120px 250px;;
+    padding: 80px 120px 120px 250px;
 }
+
+
 .ct-text{
     text-align: center;
     margin-bottom: 50px;
@@ -226,12 +228,251 @@ iframe{
     
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction:row;
     gap: 30px;
     border-radius: 10px;
 
 }
 .html{
-    
+    padding: 20px 60px 120px 20px;
+    background-color: rgba(255, 76, 30, 0.05);
+    height: 30px;
+    border-radius: 10px;
 
+}
+.html h2{
+    margin-bottom: 10px;
+}
+.html p{
+    margin-bottom: 10px;
+}
+.html a button{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background: transparent;
+}
+
+.css{
+    padding: 20px 60px 120px 20px;
+    background-color: rgba(255, 223, 0, 0.05);
+    height: 30px;
+    border-radius: 10px;
+
+}
+.css a button{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background: transparent;
+}
+.css h2{
+    margin-bottom: 10px;
+}
+.css p{
+    margin-bottom: 10px;
+}
+.js{
+    padding: 20px 60px 120px 20px;
+    background-color: bisque;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.js a button{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background: transparent;
+}
+.js h2{
+    margin-bottom: 10px;
+}
+.js p{
+    margin-bottom: 10px;
+}
+
+.nt-text{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+   
+}
+.nt-text h1{
+    margin-top: 100px;
+    font-size: 25px;
+}
+.nt-text p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.reactjs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border: 2px solid slategray;
+    box-shadow: 0.5px 1px  #888888;
+
+}
+.react-img{
+    margin: 10px;
+}
+.react-text{
+    margin-left: 20px;  
+}
+.react-text h2{
+    margin: 7px 0;
+}
+.react-text p{
+    margin: 5px 0;
+}
+.react-text a button{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background: transparent;
+}
+.nodejs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border: 2px solid slategray;
+    box-shadow: 0.5px 1px  #888888;
+}
+.node-img{
+    margin: 10px;
+}
+.node-text{
+    margin-left: 20px;  
+}
+.node-text h2{
+    margin: 7px 0;
+}
+.node-text p{
+    margin: 5px 0;
+}
+.node-text a button{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background: transparent;
+}
+.mongodb{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid slategray;
+    box-shadow: 0.5px 1px  #888888;
+}
+.mongo-img{
+    margin: 10px;
+}
+.mongo-text{
+    margin-left: 20px;  
+}
+.mongo-text h2{
+    margin: 7px 0;
+}
+.mongo-text p{
+    margin: 5px 0;
+}
+.mongo-text a button{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background: transparent;
+}
+.last-container{
+    height: 100px;
+    width: 60%;
+    margin-bottom: 400px;
+}
+.bg-pic{
+    background: url("/imeges/handshake.jpg");
+    background-size: cover;
+    position: relative;
+    left: 500px;
+    right: 100px;
+    top: 50px;
+    bottom: 500px;
+    width: 90%;
+    height: 380px;
+    padding: 0 auto;
+    border-radius: 10px;
+    
+    
+}
+input[type="text"]{
+        background-color: #fff;
+        width: 500px;
+        padding: 15px;
+        border-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: black;
+}
+.support {
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    margin-top: 180px ;
+}
+.support a button{
+    margin: 20px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.support h2{
+    position: absolute;
+    font-size: 30px;
+    right: 300px;
+    bottom: 140px;
+    color: white;
+}
+.support p{
+    position: absolute;
+    font-size: 15px;
+    right: 200px;
+    bottom: 100px;
+    color: white;
+}
+
+
+/*-------footer-----*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    position: relative;
+    margin-left: 500px ;
+    font-size: 20px;
+}
+.footer-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facebook{
+    margin: 5px 30px;
+    
+}
+.github{
+    margin: 5px 30px;
+    
+}
+.linkdin{
+    margin: 5px 30px;
+    
 }
