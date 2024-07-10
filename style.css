@@ -177,15 +177,18 @@
 
 
 /*----------third container----------*/
-.about-insp h1 p{
-    align-items: center;
+.inspa-text{
     text-align: center;
+    margin-bottom: 50px;
     padding: 20px;
+    font-size: 25px;
 }
 
+
+
 iframe{
-    display: grid;
-    place-items: center;
+    position: relative;
+    margin-left: 350px;
     width: 1000px;
     height: 450px;
     margin-bottom: 20px;
